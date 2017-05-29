@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <!--form-->
+    <form action="https://formspree.io/theballer00@gmail.com" method="POST">
+        <!--user-name-->
+        <fieldset>
+            <legend>Mój Formularz</legend>
+            <label for="user-name">Imię</label><br>
+            <input type="text" id="user-name" name="Imię">
+            <!--user-name end-->
+            <br><br>
+            <!--user-surname-->
+            <label for="surname">Nazwisko</label><br>
+            <input type="text" id="surname" name="Nazwisko">
+            <!--user-surname end-->
+            <br><br>
+            <!--email-->
+            <label for="user-email">Email</label><br>
+            <input type="email" id="user-email" name="Email">
+            <!--email end-->
+            <br><br>
+            <!--number-->
+            <label for="phone-number">Numer telefonu</label><br>
+            <input type="tel" id="phone-number" name="Numer telefonu">
+            <!--number end-->
+            <br><br>
+            <!--select-->
+            <label for="item-option">Miasto</label>
+            <select name="Miasto" id="item-option">
+           <option value="Kraków">Kraków</option>
+           <option value="Warszawa">Warszawa</option>
+           <option value="Gdańsk">Gdańsk</option>
+       </select>
+            <!--select end-->
+            <br><br>
+            <!--radio-->
+            <p>Płeć: <br>
+                <label for="male">Mężczyzna</label>
+                <input type="radio" value="male" name="Płeć" id="male">
+                <label for="female">Kobieta</label>
+                <input type="radio" value="female" name="Płeć" id="female">
+            </p>
+            <!--radio end-->
+            <label for="option">Zgoda na przetwarzanie danych osobowych</label>
+            <input type="checkbox" id="option" name="Zgoda">
+            <!--radio end-->
+            <br><br>
+            <!--message-->
+            <label for="message">Wiadomość</label><br>
+            <textarea name="wiadomość" id="message" cols="30" rows="10"></textarea><br>
+            <!--message end-->
+            <input type="submit" value="Wyślij">
+        </fieldset>
+    </form>
+    <!--   form end -->
+</body>
+
+</html>
